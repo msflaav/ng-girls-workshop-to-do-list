@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fb-first-ng';
+  title = `Flavia's ToDo List`; 
+  weekdays = ['flavia', 'monday', 'tuesday','wednesday'];
+  items = ['one']
 }
